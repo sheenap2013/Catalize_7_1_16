@@ -23,9 +23,10 @@
             android:paddingRight="16dp"
             android:layout_height="404dp"
             android:cacheColorHint="#ffccff"
-            android:divider="@color/colorPrimaryDark"
+            android:divider="#eb0f0f"
             android:dividerHeight="2sp"
-            android:layout_weight="0.82">
+            android:layout_weight="0.82"
+            android:contextClickable="true">
         </ListView>
 
         <Button
@@ -33,7 +34,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
-            android:background="@color/colorPrimaryDark"
+            android:background="#eb0f0f"
             android:text="Make Connection"
             android:textSize="23sp"
             android:gravity="center" />
