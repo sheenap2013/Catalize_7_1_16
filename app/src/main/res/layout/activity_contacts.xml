@@ -4,6 +4,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="#fafafa"
     android:weightSum="1">
         <Button
             android:id="@+id/button1"
@@ -11,8 +12,8 @@
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
             android:background="#000000"
-            android:text="  Contacts"
-            android:textSize="23sp"
+            android:text="    Contacts"
+            android:textSize="18sp"
             android:gravity="center_vertical" />
 
         <ListView
@@ -23,10 +24,9 @@
             android:paddingRight="16dp"
             android:layout_height="404dp"
             android:cacheColorHint="#ffccff"
-            android:divider="#eb0f0f"
+            android:divider="@color/colorPrimary"
             android:dividerHeight="2sp"
-            android:layout_weight="0.82"
-            android:contextClickable="true">
+            android:layout_weight="0.82">
         </ListView>
 
         <Button
@@ -34,9 +34,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
-            android:background="#eb0f0f"
+            android:background="@color/colorPrimary"
             android:text="Make Connection"
-            android:textSize="23sp"
+            android:textSize="18sp"
             android:gravity="center" />
 
     </LinearLayout>

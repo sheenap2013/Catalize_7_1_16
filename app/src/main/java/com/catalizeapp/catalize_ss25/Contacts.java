@@ -97,8 +97,8 @@ public class Contacts extends AppCompatActivity {
                     if (my_custom_adapter.itemChecked.get(i)) {
                         item += contacts.get(i) + " ";
                     }
-                Toast.makeText(Contacts.this, item,
-                        Toast.LENGTH_LONG).show();
+                //Toast.makeText(Contacts.this, item,
+                  //      Toast.LENGTH_LONG).show();
                 people=item;
                 startActivityForResult(new Intent(Contacts.this, Account.class), 10);
             }
